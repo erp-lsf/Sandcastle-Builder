@@ -8,7 +8,7 @@ Boosts can be accessed either by Molpy.Boosts[ALIAS] or Molpy.BoostsById[ID].
 Third column explains is parameter (A)utomatic, (M)ust be present or (O)ptional. 
 
 What                  | Type    |AMO| Use and comments 
-----------------------|---------|---|-----------------
+----------------------|:-------:|:-:|-----------------
 id                    | int     | A | Set internally by the program on setup
 unlocked              |	float   | M | If 1, the boost is unlocked when the game starts, boost will be in shop if unlocked > bought
 bought                | float   | M | Number of times the boost has been bought (will be in shop if bought < unlocked)
@@ -58,7 +58,7 @@ AfterToggle           |	Func    | O | Called after use of Generic Toggle
 ## Badges
 
 What                  | Type    |AMO | Use and comments 
-----------------------|---------|----|-----------------
+----------------------|:-------:|:--:|-----------------
 id                    |	int     | A  | Set internally to the Idenity of the Badge on setup.
 name                  | text    | M  | Name of badge
 alias                 | text    | O  | Short form of badge, not used other than for dicoveries, may remove this
@@ -76,6 +76,9 @@ The discoveries are **CURRENTLY** in the same file as the badges.  This will cha
 
 ### Sand Tools
 
+What                  | Type    |AMO | Use and comments 
+----------------------|:-------:|:--:|-----------------
+
 ### Castle Tools
 
 ## Options
@@ -84,7 +87,7 @@ Add new options in the order they should appear
 Add the new option to the **END** of the Save Order, **NEVER EVER DELETE** from this list
 
 What                  | Type    | AMO| Use and comments 
-----------------------|---------|----|-----------------
+----------------------|:-------:|:--:|-----------------
 id                    |	int     | A  | Set internally to the Idenity of the Option on setup.
 name                  | text    | M	 | Used to reference the option in the code
 title                 | text    | O  | Title of option (if different from name)
