@@ -74,7 +74,7 @@ The discoveries are **CURRENTLY** in the same file as the badges.  This will cha
 
 ## Tools
 
-Add new ones in order you want them to be opened, and consider **nextThreshold** parameter.
+Add new ones in order you want them to be unlocked, and consider **nextThreshold** parameter.
 
 ### Sand Tools
 
