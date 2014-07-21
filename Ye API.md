@@ -74,10 +74,20 @@ The discoveries are **CURRENTLY** in the same file as the badges.  This will cha
 
 ## Tools
 
+Add new ones in order you want them to be opened, and consider **nextThreshold** parameter.
+
 ### Sand Tools
 
 What                  | Type    |AMO | Use and comments 
 ----------------------|:-------:|:--:|-----------------
+name                  | text    | M  | Name of the tool
+commonName            | text    | M  | List of 3 words demarked by '||' consisting of singular and plural names of the tool and word to be used in stats display for number of castles built
+icon                  | text    | M? | Name of the icon used for displaying
+desc                  | text    | M? | Description of the tool
+price                 | int     | M  | Starting price to be used in calculations
+spmNP                 | Func    | M  | Action to be taken if tool is working in sand mode per mNP
+gpmNP                 | Func    | M  | Action to be taken if tool is working in glass mode per mNP
+nextThreshold         | int     | M  | Number of owned tools after which the next one is unlocked
 
 ### Castle Tools
 
