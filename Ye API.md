@@ -81,7 +81,7 @@ Add new ones in order you want them to be opened, and consider **nextThreshold**
 What                  | Type    |AMO | Use and comments 
 ----------------------|:-------:|:--:|-----------------
 name                  | text    | M  | Name of the tool
-commonName            | text    | M  | List of 3 words demarked by '||' consisting of singular and plural names of the tool and word to be used in stats display for number of castles built
+commonName            | text    | M  | List of 3 words demarked by vertical bar, consisting of singular and plural names of the tool and word to be used in stats display for number of castles built
 icon                  | text    | M? | Name of the icon used for displaying
 desc                  | text    | M? | Description of the tool
 price                 | int     | M  | Starting price to be used in calculations
