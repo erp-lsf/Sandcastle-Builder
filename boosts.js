@@ -11137,6 +11137,7 @@ Molpy.DefineBoosts = function() {
         alias: 'favs',
         icon: 'favouritesmanager',
         group: 'faves',
+        className: 'action',
         desc: function(me) {
             var str = 'Adds useful tab in loot panel...';
             if (me.bought) {
